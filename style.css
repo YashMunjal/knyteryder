@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #242e4c;
+}
+
+.cover {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sikandarpur_metro_station_-_Main_building.jpg/1600px-Sikandarpur_metro_station_-_Main_building.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-orange {
+    background-color: #ff6144!important;
+}
+
+.vh-80 {
+    min-height: 84vh;
+}
+
+.sign__container {
+    width: 60%;
+}
+
+.overlay-white{
+    background-color: rgba(255, 222, 178, 0.828);
+       
+}
+
+.subtitle-mb{
+    font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+    .sign__container {
+        width: 350px;
+    }
+    .subtitle-mb{
+        margin-bottom: 5.5rem!important;
+    }
+}
